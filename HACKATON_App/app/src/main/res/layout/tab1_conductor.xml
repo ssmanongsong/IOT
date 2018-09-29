@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/roadpt"
+    tools:context="com.example.david.hackaton_app.Driver_Conductor$PlaceholderFragment">
+
+    <TextView
+        android:text="Price of Transpo."
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/textCPrice"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:text="Pacita (BBL) -> Makati"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:id="@+id/radioButton1"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_below="@+id/textCLabel2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="12sp" />
+
+    <TextView
+
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/textNP"
+        android:layout_alignTop="@+id/textCLabel1"
+        android:layout_toRightOf="@+id/textCLabel1"
+        android:layout_toEndOf="@+id/textCLabel1"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:text="Select a Destination"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:id="@+id/textCLabel2"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_above="@+id/textCPrice"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:text="No. of Passengers"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/textCLabel1"
+        android:layout_marginTop="44dp"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/radioButton1"
+        android:layout_alignStart="@+id/radioButton1" />
+
+    <TextView
+
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@+id/textCPrice"
+        android:layout_alignLeft="@+id/textNP"
+        android:layout_alignStart="@+id/textNP"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:id="@+id/textPrice"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"/>
+
+    <RadioButton
+        android:text="Pacita (BBL) -> Pasay"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton2"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/radioButton1"
+        android:layout_toRightOf="@+id/radioButton1"
+        android:layout_toEndOf="@+id/radioButton1" />
+
+    <TextView
+        android:text="Total"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="59dp"
+        android:id="@+id/textCLabel3"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/textCPrice"
+        android:layout_alignLeft="@+id/textCPrice"
+        android:layout_alignStart="@+id/textCPrice"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:id="@+id/textTotal"
+        android:layout_alignTop="@+id/textCLabel3"
+        android:layout_alignLeft="@+id/textPrice"
+        android:layout_alignStart="@+id/textPrice" />
+
+
+</RelativeLayout>

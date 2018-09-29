@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HACKATON_App</string>
+    <string-array name="numbers">
+        <item>Laguna(BBL) -> Makati(Magallanes)</item>
+        <item>Laguna(BBL) -> Pasay(Rotonda)</item>
+    </string-array>
+    <string name="title_activity_conductor">Conductor</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_passenger">Passenger</string>
+    <string name="title_activity_checker">Checker</string>
+    <string name="title_activity_cashier">Cashier</string>
+</resources>
